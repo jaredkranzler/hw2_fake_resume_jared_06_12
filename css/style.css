@@ -1,3 +1,54 @@
 body {
-  background-color: blue;
+      background-color: rgb(255, 255, 204);
+      text-align: auto;
+      display: inline-block;
+      /*background: url(https://i.imgur.com/foFoSs3.jpg);*/
+      background-size: cover;
+      background-position: center;
+      color: black;
+      font-family: helvetica;
+      margin-left: 200px;
+      margin-right: 200px;
+
+}
+header {
+  background-color: lightgrey;
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+.bar {
+  background-color: rgba(0,0,0,0.6);
+  float: center;
+  text-align: center;
+  letter-spacing: 4px;
+  word-spacing: 5px;
+  color: solid white;
+  text-align: auto;
+  margin: 20px 40px 15px 40px;
+  padding: 5px 5px;
+  font-size: 20px;
+  text-decoration: none;
+}
+h1 {
+  margin-top: 40px;
+
+}
+.social {
+      color: white;
+      display: inline;
+      text-align: auto;
+      
+
+    }
+img {
+  height: 250px;
+  width: 250px;
+  border: solid white;
+  border-width: 3px;
+  border-radius: 50%;
+  text-align: auto;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
