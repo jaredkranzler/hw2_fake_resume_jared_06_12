@@ -22,20 +22,10 @@ img {
 ul {
   padding: 10px;
   background: rgba(0,0,0,0.5);
-  margin-bottom: 0px;
 }
 li {
   display: inline;
   padding: 0px 10px 0px 10px;
-}
-article {
-  max-width: 500px;
-  padding: 20px;
-  margin: 0 auto;
-}
-main {
-  background: lightgrey;
-
 }
 
 
@@ -48,6 +38,4 @@ footer {
   background-size: cover;
   background-color: mediumseagreen;
   color: white;
-  padding-top: 30px;
-  padding-bottom: 30px;
 }
