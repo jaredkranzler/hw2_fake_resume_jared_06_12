@@ -3,29 +3,46 @@ body {
       text-align: auto;
       display: inline-block;
       /*background: url(https://i.imgur.com/foFoSs3.jpg);*/
-      background-size: cover;
+      background-size: all;
       background-position: center;
+      background: url(https://i.imgur.com/GKP8QZj.jpg);
       color: black;
       font-family: helvetica;
-      margin-left: 200px;
-      margin-right: 200px;
+      margin-left: 220px;
+      margin-right: 220px;
 
 }
 header {
-  background-color: lightgrey;
+  background-color: none;
+  background: url(https://i.imgur.com/jqY7UFq.png);
   display: block;
   text-align: center;
   margin: auto;
+  font-family: "Droid Serif", serif;
+  font-size: 20px
 }
+main {
+  margin: auto;
+  margin-top: 40px; 
+  padding: 40px 40px;
+  padding-right: 70px;
+  background-color: rgba(41,82,163,.7);
+  border-radius: 40px;
+  border-width: 10px;
+  border: white solid;
+}
+
 .bar {
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.7);
   float: center;
   text-align: center;
   letter-spacing: 4px;
   word-spacing: 5px;
-  color: solid white;
+  color: black;
+  font-weight: bold;
   text-align: auto;
-  margin: 20px 40px 15px 40px;
+  margin: auto;
+  margin-bottom: 30px;
   padding: 5px 5px;
   font-size: 20px;
   text-decoration: none;
@@ -35,20 +52,52 @@ h1 {
 
 }
 .social {
-      color: white;
+      color: yellow;
+      font-weight: lighter;
       display: inline;
       text-align: auto;
-      
-
     }
+p, li {
+  color: white;
+}    
 img {
   height: 250px;
   width: 250px;
   border: solid white;
   border-width: 3px;
-  border-radius: 50%;
+  border-radius: 30%;
   text-align: auto;
   display: block;
   margin-right: auto;
   margin-left: auto;
 }
+footer {
+  padding: 0px 20px;
+  background-color: rgba(255,255,255,0.7);
+  color: black;
+  font-size: 14px;
+  letter-spacing: .08em;
+  font-weight: 500;
+  border-width: 4px;
+  border-color: black solid;
+  }
+.socialmedia {
+}
+.clearfix:after {
+visibility: hidden;
+display: block;
+content: " ";
+clear: both;
+height: 0;
+font-size: 0;
+}
+.message {
+  font-family: "railway";
+  float: right;
+  color: black;
+}
+.copyright {
+  font-family: "railway";
+  float: left;
+  color: black;
+  }
